@@ -1,4 +1,5 @@
-@server = https://texai-supreme-potato-4wgxxr65f5g5x-8080.preview.app.github.dev
+# @server = https://texai-supreme-potato-4wgxxr65f5g5x-8080.preview.app.github.dev
+@server = https://sem8.onrender.com
 @apiserver = {{server}}/api/curso
 ###
 
@@ -15,12 +16,12 @@ GET {{apiserver}}/listar
 POST {{apiserver}}/nuevo
 Content-Type: application/x-www-form-urlencoded
 
-nombre=Algoritmos&creditos=3
+nombre=Inteligencia+Artificial&creditos=4
 
 ###
 DELETE {{apiserver}}/eliminar
 Content-Type: application/x-www-form-urlencoded
 
-id=1
+id=54
 
 
