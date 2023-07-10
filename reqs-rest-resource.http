@@ -19,7 +19,7 @@ GET {{server}}/cursos?sort=creditos,desc
 GET {{server}}/cursos?size=2&page=1&sort=creditos,desc
 
 ###
-GET {{server}}/cursos/102
+GET {{server}}/cursos/52/carrera
 
 ### 
 POST {{server}}/cursos
@@ -35,7 +35,7 @@ Content-Type: application/json
 
 ###
 
-DELETE {{server}}/cursos/152
+DELETE {{server}}/cursos/203
 
 ###
 GET {{server}}/cursos/search/findByNombre?nombre=Algoritmos
@@ -46,3 +46,22 @@ GET {{server}}/profile/cursos
 ###
 GET {{server}}/cursos/search
 ###
+
+
+#################
+
+
+GET {{server}}/carreras
+###
+GET {{server}}/carreras/2/cursos
+###
+POST {{server}}/carreras
+Content-Type: application/json
+
+{"nombre": "Marketing"}
+
+### 
+PATCH {{server}}/cursos/2
+Content-Type: application/json
+
+{"id_carrera": 2}
