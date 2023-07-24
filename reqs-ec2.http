@@ -1,10 +1,13 @@
-# @server = https://texai-supreme-potato-4wgxxr65f5g5x-8080.preview.app.github.dev
+# @server = https://luiscarbl-redesigned-lamp-9p44j4p7qj739569-8080.preview.app.github.dev
 @server = https://sem8.onrender.com
 @apiserver = {{server}}/api/curso
 ###
 
 GET {{server}}
 ###
+
+
+
 GET {{server}}/codigo
 ###
 GET {{server}}/nombre-completo
