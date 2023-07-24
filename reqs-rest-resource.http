@@ -22,7 +22,7 @@ GET {{server}}/cursos?size=2&page=1&sort=creditos,desc
 POST {{server}}/cursos
 Content-Type: application/json
 
-{"nombre": "Compiladores", "creditos": 5}
+{"nombre": "Python", "creditos": 10}
 
 ### 
 PATCH {{server}}/cursos/152

@@ -1,5 +1,5 @@
-# @server = https://luiscarbl-redesigned-lamp-9p44j4p7qj739569-8080.preview.app.github.dev
-@server = https://sem8.onrender.com
+@server = https://luiscarbl-redesigned-lamp-9p44j4p7qj739569-8080.preview.app.github.dev
+# @server = https://sem8.onrender.com
 @apiserver = {{server}}/api/curso
 ###
 
